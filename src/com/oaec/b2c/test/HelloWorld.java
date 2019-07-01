@@ -28,5 +28,6 @@ public class HelloWorld {
         AddressService addressService = new AddressServiceImpl();
         Boolean aBoolean = addressService.deleteAddress(5020);
         System.out.println("aBoolean = " + aBoolean);
+        System.out.println("aaa");
     }
 }
